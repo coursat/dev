@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return "hello from github";
+    return "hello from github nice from local";
 });
