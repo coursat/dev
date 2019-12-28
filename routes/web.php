@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return "hello from github nice from local";
-});
+Route::get('/','PageController@home');
