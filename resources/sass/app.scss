@@ -1,1 +1,19 @@
 //
+$main_color:#00adef;
+body
+{
+    background-color:f7f9fc;
+}
+.header
+{
+    background-color:$main_color;
+    padding:20px 0px;
+
+}
+.header
+{
+    img
+    {
+       height:30px;
+    }
+}
