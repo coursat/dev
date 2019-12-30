@@ -54,6 +54,7 @@
     </div>
     <div class="container">
         @yield('content')
+        test 
     </div>
 
 @include("client.inc.footer")
