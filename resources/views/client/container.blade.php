@@ -34,12 +34,6 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{{asset('custom')}}/images/icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{asset('custom')}}/images/icon-114x114.png">
 
-
-    <!--[if lt IE 9]>
-    <script src="{{asset('custom')}}/js/html5shiv.min.js"></script>
-    <script src="{{asset('custom')}}/js/respond.min.js"></script>
-    <![endif]-->
-
   </head>
 <body>
     <div class="header">
