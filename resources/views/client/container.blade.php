@@ -1,15 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-<<<<<<< HEAD
-
-    @include("client.inc.header")
-=======
     @include("client.inc.head")
->>>>>>> b5943dc21e7ded1ce56d8ae74c034f374b6c06b9
   </head>
 <body>
-  
+
  <!-- Header -->
  <header>
       <nav class="navbar navbar-expand-xl absolute-nav transparent-nav cp-nav navbar-light bg-light fluid-nav">
@@ -119,7 +114,7 @@
           <ul class="navbar-nav ml-auto account-nav">
             <li class="dropdown menu-item header-top-notification">
               <a href="#" class="notification-button"></a>
-              
+
               <div class="notification-card">
                 <div class="notification-head">
                   <span>Notifications</span>
@@ -159,7 +154,7 @@
             </li>
             <li class="menu-item login-popup"><button title="Title" type="button" data-toggle="modal" data-target="#exampleModalLong">Login</button></li>
             <li class="menu-item login-popup"><button title="Title" type="button" data-toggle="modal" data-target="#exampleModalLong2">Registration</button></li>
-          </ul> 
+          </ul>
         </div>
       </nav>
       <!-- Modal -->
@@ -259,7 +254,7 @@
       </div>
     </header>
     <!-- Header End -->
-    
+
     <!-- Banner -->
     <div class="banner banner-4 banner-4-bg">
       <div class="container">
