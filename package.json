@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "scss": "node-sass --watch resources/sass -o public/css",
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "npm run development -- --watch",
@@ -20,6 +21,7 @@
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
+<<<<<<< HEAD
         "vue-template-compiler": "^2.6.11",
         "webpack": "^4.41.5",
         "webpack-cli": "^3.3.10"
@@ -27,5 +29,11 @@
     "dependencies": {
         "@babel/core": "^7.7.7",
         "@babel/preset-env": "^7.7.7"
+=======
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "node-sass": "^4.13.0"
+>>>>>>> b5943dc21e7ded1ce56d8ae74c034f374b6c06b9
     }
 }
