@@ -1,0 +1,11 @@
+$primary_color : #7fb735;
+.prim-bg
+{
+    background-color:$primary_color;
+    background:$primary_color;
+    color:white;
+    *
+    {
+        color:white !important;
+    }
+}

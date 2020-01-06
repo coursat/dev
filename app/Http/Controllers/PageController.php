@@ -10,4 +10,8 @@ class PageController extends Controller
     {
         return view('client.pages.home');
     }
+    public function countries()
+    {
+        return view('client.pages.countries');
+    }
 }

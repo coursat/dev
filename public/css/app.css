@@ -1,0 +1,6 @@
+.prim-bg {
+  background-color: #7fb735;
+  background: #7fb735;
+  color: white; }
+  .prim-bg * {
+    color: white !important; }

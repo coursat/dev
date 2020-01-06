@@ -53,8 +53,9 @@
               </ul>
             </li>
             <li class="menu-item dropdown">
-              <a title="" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Country</a>
+              <a title="" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Countries</a>
               <ul  class="dropdown-menu">
+                <li class="menu-item prim-bg"><a  href="{{url('')}}/countries">More Countries</a></li>
                 <li class="menu-item"><a  href="employer-listing.html">Employer Listing</a></li>
                 <li class="menu-item"><a  href="employer-details.html">Employer Details</a></li>
                 <li class="menu-item"><a  href="employer-dashboard.html">Dashboard</a></li>
