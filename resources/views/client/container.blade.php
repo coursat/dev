@@ -6,7 +6,12 @@
 <body>
  
 
- 
+@if(Request::url() === '/')
+@else 
+  @include("client.inc.header")
+@endif
+
+
 
         @yield('content')
  
