@@ -6,7 +6,7 @@
 <body>
 
 
-@if(!($meta['is_home_page']))
+@if(!(isset($meta['is_home_page'])))
 
     @include("client.inc.header")
 @endif
