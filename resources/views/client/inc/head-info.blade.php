@@ -2,10 +2,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Coursat</title>
+    <title>{{$meta['title']}}</title>
 
     <!-- Bootstrap CSS -->
-   
+
     <link rel="stylesheet" href="{{asset('custom')}}/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('custom')}}/css/main.css">
     <!-- External Css -->
@@ -21,8 +21,8 @@
 
 
     <!-- Custom Css -->
-   
- 
+
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7CRoboto:300i,400,500" rel="stylesheet">
 

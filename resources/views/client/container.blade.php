@@ -6,14 +6,14 @@
 <body>
 
 
-@if(Request::url() === '/')
-@else
-  @include("client.inc.header")
+@if(!(isset($meta['is_home_page'])))
+
+    @include("client.inc.header")
 @endif
 
 
-
         @yield('content')
+
 
     @include("client.inc.footer")
     @include("client.inc.body-end")

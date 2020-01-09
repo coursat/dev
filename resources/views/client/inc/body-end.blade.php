@@ -9,7 +9,6 @@
 <script src="{{url('custom')}}/assets/js/jquery.countTo.js" async ></script>
 <script src="{{url('custom')}}/assets/js/chart.js" async ></script>
 <script src="{{url('custom')}}/assets/js/plyr.js" async ></script>
-<script src="{{url('custom')}}/assets/js/tinymce.min.js" async ></script>
 <script src="{{url('custom')}}/assets/js/slick.min.js" async ></script>
 <script src="{{url('custom')}}/assets/js/jquery.ajaxchimp.min.js" async ></script>
 
