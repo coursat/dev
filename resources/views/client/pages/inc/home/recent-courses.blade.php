@@ -5,7 +5,7 @@
           <div class="col">
             <div class="section-header section-header-2 section-header-with-right-content">
               <h2>Popular Courses</h2>
-            
+
             </div>
           </div>
         </div>
@@ -14,7 +14,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-1.png" class="img-fluid" alt="">
+                  <img src="#" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">
@@ -38,7 +38,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-2.png" class="img-fluid" alt="">
+                  <img src="" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">
@@ -62,7 +62,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-8.png" class="img-fluid" alt="">
+                  <img src="" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">
@@ -86,7 +86,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-9.png" class="img-fluid" alt="">
+                  <img src="" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">
@@ -110,7 +110,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-10.png" class="img-fluid" alt="">
+                  <img src="" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">
@@ -134,7 +134,7 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-3.png" class="img-fluid" alt="">
+                  <img src="" class="img-fluid" alt="">
                 </a>
               </div>
               <div class="body">

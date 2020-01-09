@@ -6,7 +6,7 @@
             <div class="col-md-6">
               <div class="footer-logo">
                 <a href="#">
-                  <img src="images/footer-logo.png" class="img-fluid" alt="">
+                <img src="{{asset('custom')}}/images/logo.png" class="img-fluid" alt="">
                 </a>
               </div>
             </div>
@@ -85,6 +85,13 @@
                   <p class="newsletter-error">0 - Please enter a value</p>
                   <p class="newsletter-success">Thank you for subscribing!</p>
                 </form>
+                <div class="app-download">
+                    <div class="app-download-button">
+
+                      <a href="#" class="apple-app"> <i class="fab fa-apple"></i> Apple Store</a>
+                      <a href="#" class="android-app"> <i class="fab fa-android"></i>Google Play</a>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>

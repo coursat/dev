@@ -8,7 +8,14 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('client.pages.home');
+
+        $title = "الرئيسية";
+        $meta_info = array
+        (
+            'title' =>$title,
+            'is_home_page' => true
+        );
+        return view('client.pages.home')->with('meta', $meta_info);
     }
     public function countries()
     {

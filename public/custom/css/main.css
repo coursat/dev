@@ -4864,9 +4864,9 @@ a:focus {
 }
 
 .app-download .app-download-button a {
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #2196F3;
   border-radius: 3px;
-  padding: 12px 15px 12px 45px;
+  padding: 12px 15px 12px 55px;
   margin: 0 5px;
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -4874,6 +4874,7 @@ a:focus {
   color: #ffffff;
   position: relative;
   margin-top: 20px;
+  color:black;
 }
 
 .app-download .app-download-button a:before {
@@ -4887,14 +4888,16 @@ a:focus {
   border-color: #ffffff;
 }
 
-.app-download .app-download-button .apple-app:before {
-  content: url(../images/apple-white.png);
+.app-download .fab
+{
+    font-size: 40px;
+    margin-right: 8px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color:black;
 }
-
-.app-download .app-download-button .android-app:before {
-  content: url(../images/google-white.png);
 }
-
 /*---------------------------------------------
     10.0 Form Style
 ---------------------------------------------*/
