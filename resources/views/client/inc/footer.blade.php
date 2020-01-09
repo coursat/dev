@@ -6,7 +6,7 @@
             <div class="col-md-6">
               <div class="footer-logo">
                 <a href="#">
-                <img src="{{asset('custom')}}/images/logo.png" class="img-fluid" alt="">
+               Courses
                 </a>
               </div>
             </div>

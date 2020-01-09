@@ -43,38 +43,14 @@
           </ul>
           <ul class="navbar-nav ml-auto main-nav">
             <li class="menu-item active"><a title="Home" href="home-1.html">Home</a></li>
-            <li class="menu-item dropdown">
-              <a title="" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Courses</a>
-              <ul  class="dropdown-menu">
-                <li class="menu-item"><a  href="job-listing.html">Job Listing</a></li>
-                <li class="menu-item"><a  href="job-listing-with-map.html">Job Listing With Map</a></li>
-                <li class="menu-item"><a  href="job-details.html">Job Details</a></li>
-                <li class="menu-item"><a  href="post-job.html">Post Job</a></li>
-              </ul>
-            </li>
-            <li class="menu-item dropdown">
-              <a title="" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Countries</a>
-              <ul  class="dropdown-menu">
-                <li class="menu-item prim-bg"><a  href="{{url('')}}/countries">More Countries</a></li>
-                <li class="menu-item"><a  href="employer-listing.html">Employer Listing</a></li>
-                <li class="menu-item"><a  href="employer-details.html">Employer Details</a></li>
-                <li class="menu-item"><a  href="employer-dashboard.html">Dashboard</a></li>
-                <li class="menu-item"><a  href="employer-dashboard-edit-profile.html">Edit Profile</a></li>
-                <li class="menu-item"><a  href="employer-dashboard-manage-candidate.html">Manage Candidate</a></li>
-                <li class="menu-item"><a  href="employer-dashboard-manage-job.html">Manage Job</a></li>
-                <li class="menu-item"><a href="employer-dashboard-message.html">Message</a></li>
-                <li class="menu-item"><a href="employer-dashboard-pricing.html">Pricing</a></li>
-                <li class="menu-item"><a  href="employer-dashboard-post-job.html">Post Job</a></li>
-              </ul>
-            </li>
             <li class="menu-item post-job"><a title="Title" href="post-job.html"><i class="fas fa-plus"></i>Add Your Academy</a></li>
           </ul>
           <ul class="navbar-nav ml-auto account-nav">
-         
+
             <li class="menu-item login-popup"><button title="Title" type="button" data-toggle="modal" data-target="#exampleModalLong">Login</button></li>
             <li class="menu-item login-popup"><button title="Title" type="button" data-toggle="modal" data-target="#exampleModalLong2">Registration</button></li>
           </ul>
-        </div> 
+        </div>
       </nav>
       <!-- Modal -->
       <div class="account-entry">

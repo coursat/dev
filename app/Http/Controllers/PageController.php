@@ -26,4 +26,14 @@ class PageController extends Controller
         );
         return view('client.pages.countries')->with('meta', $meta_info);;
     }
+    public function search()
+    {
+        $title = "Courses";
+        $meta_info = array
+        (
+            'title' =>$title
+        );
+        return view('client.pages.countries')->with('meta', $meta_info);;
+    }
+
 }
