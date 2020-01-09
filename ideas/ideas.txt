@@ -1,0 +1,2 @@
+request info : application will request client data and send it to academy
+connect instrcutor to academy by extra fees for academy to verify
