@@ -1,4 +1,11 @@
-.cp-nav .navbar-brand
+$primary_color : #7fb735;
+.prim-bg
 {
-    width:160px;
+    background-color:$primary_color;
+    background:$primary_color;
+    color:white;
+    *
+    {
+        color:white !important;
+    }
 }

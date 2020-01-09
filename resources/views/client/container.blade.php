@@ -1,26 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
-    @include("client.inc.head")
+    @include("client.inc.head-info")
   </head>
 <body>
 
- <!-- Header -->
-    <header>
 
-      @include("client.inc.nav")
-      @include("client.inc.login-modal")
+@if(Request::url() === '/')
+@else
+  @include("client.inc.header")
+@endif
 
-    </header>
-    <!-- Header End -->
 
-    @include("client.pages-section.home.banner")
 
-    <div class="container">
         @yield('content')
-    </div>
 
     @include("client.inc.footer")
+    @include("client.inc.body-end")
 </body>
 </html>
 

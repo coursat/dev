@@ -5,9 +5,11 @@
     <title>Coursat</title>
 
     <!-- Bootstrap CSS -->
+   
     <link rel="stylesheet" href="{{asset('custom')}}/assets/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('custom')}}/css/main.css">
     <!-- External Css -->
+    <link rel="stylesheet" href="{{asset('')}}css/app.css">
     <link rel="stylesheet" href="{{asset('custom')}}/assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="{{asset('custom')}}/assets/css/themify-icons.css" />
     <link rel="stylesheet" href="{{asset('custom')}}/assets/css/et-line.css" />
@@ -19,8 +21,8 @@
 
 
     <!-- Custom Css -->
-    <link rel="stylesheet" type="text/css" href="{{asset('custom')}}/css/main.css">
-    <link rel="stylesheet" href="{{asset('')}}css/app.css">
+   
+ 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7CRoboto:300i,400,500" rel="stylesheet">
 
