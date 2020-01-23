@@ -16,3 +16,32 @@
   font-weight: 500;
   border-radius: 3px;
   padding: 11px 20px; }
+
+.post-btn a i {
+  font-size: 1.2rem;
+  margin-right: 10px; }
+
+ul {
+  padding: 0px;
+  margin: 0px; }
+
+.header-2 nav {
+  position: static; }
+
+.header-2 .transparent-nav .navbar-collapse .navbar-nav > li > a, .header-2 .cp-nav .navbar-collapse .navbar-nav.account-nav .login-popup button {
+  color: gray; }
+
+.header-2 .cp-nav.fluid-nav {
+  width: 100%;
+  padding: 0px; }
+
+.header-2 .cp-nav .navbar-collapse .navbar-nav.job-browse li a.dropdown-toggle:hover {
+  color: gray; }
+
+.header-2 .cp-nav .navbar-collapse .navbar-nav .post-job a {
+  background: #246df8;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 11px 20px; }

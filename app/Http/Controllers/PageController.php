@@ -33,7 +33,7 @@ class PageController extends Controller
         (
             'title' =>$title
         );
-        return view('client.pages.countries')->with('meta', $meta_info);;
+        return view('client.pages.search')->with('meta', $meta_info);;
     }
 
 }
