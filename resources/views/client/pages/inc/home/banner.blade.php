@@ -21,7 +21,7 @@
                     <option value="washington">Washington DC</option>
                     <option value="neveda">Neveda</option>
                   </select>
-                  <button class="button primary-bg"><i class="fas fa-search"></i>Search Course</button>
+                  <button  class="button primary-bg"><i class="fas fa-search"></i>Search Course</button>
                 </form>
                 <div class="trending-key">
                   <span>Trending Keywords:</span>

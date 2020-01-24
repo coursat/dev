@@ -23,11 +23,12 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-8.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
           <div class="content">
+            <h2 class="academic-title"><a href="job-details.html">Restaurant Team Member - Crew </a></h2>
             <h4><a href="job-details.html">Restaurant Team Member - Crew </a></h4>
             <div class="info">
               <span class="company"><a href="#"><i data-feather="briefcase"></i>Theoreo</a></span>
@@ -37,7 +38,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -47,7 +48,7 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-9.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
@@ -61,7 +62,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -71,7 +72,7 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-10.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
@@ -85,7 +86,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -95,7 +96,7 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-3.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
@@ -109,7 +110,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -119,7 +120,7 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-10.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
@@ -133,7 +134,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -143,7 +144,7 @@
       <div class="job-list">
         <div class="thumb">
           <a href="#">
-            <img src="images/job/company-logo-3.png" class="img-fluid" alt="">
+            <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
@@ -157,7 +158,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -181,7 +182,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -205,7 +206,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -229,7 +230,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -253,7 +254,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -277,7 +278,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -301,7 +302,7 @@
           </div>
           <div class="more">
             <div class="buttons">
-              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Apply Now</a>
+              <a href="#" class="button" data-toggle="modal" data-target="#apply-popup-id">Show Details</a>
               <a href="#" class="favourite"><i data-feather="heart"></i></a>
             </div>
             <p class="deadline">Deadline: Oct 31,  2019</p>
@@ -342,7 +343,7 @@
                       <span class="dot"></span> I accept the <a href="#">terms & conditions</a>
                     </label>
                   </div>
-                  <button class="button primary-bg btn-block">Apply Now</button>
+                  <button class="button primary-bg btn-block">Show Details</button>
                 </form>
               </div>
             </div>

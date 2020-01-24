@@ -45,3 +45,14 @@ ul {
   font-weight: 500;
   border-radius: 3px;
   padding: 11px 20px; }
+
+.job-list .thumb img {
+  max-width: 70px; }
+
+.job-list .academic-title {
+  font-size: 12px;
+  font-weight: bold;
+  background: #246df8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px; }
