@@ -4,7 +4,7 @@
           <div class="col">
             <div class="header-top">
               <div class="logo-area">
-                <a href="index.html">Courses</a>
+                <a href="{{url('')}}">Courses</a>
               </div>
               <div class="header-top-toggler">
                 <div class="header-top-toggler-button"></div>

@@ -28,8 +28,8 @@
         </div>
         <div class="body">
           <div class="content">
-            <h2 class="academic-title"><a href="job-details.html">Restaurant Team Member - Crew </a></h2>
-            <h4><a href="job-details.html">Restaurant Team Member - Crew </a></h4>
+            <h2 class="academic-title"><a href="job-details.html">Inoledge </a></h2>
+            <h4><a href="job-details.html">Ui Developer Diploma</a></h4>
             <div class="info">
               <span class="company"><a href="#"><i data-feather="briefcase"></i>Theoreo</a></span>
               <span class="office-location"><a href="#"><i data-feather="map-pin"></i>New Orleans</a></span>

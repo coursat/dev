@@ -2289,6 +2289,7 @@ a:focus {
   font-weight: 500;
   color: #232630;
   margin-bottom: 15px;
+  margin-top:10px;
 }
 
 .job-list .body .content .info span {
