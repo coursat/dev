@@ -17,15 +17,6 @@ class PageController extends Controller
         );
         return view('client.pages.home')->with('meta', $meta_info);
     }
-    public function countries()
-    {
-        $title = "Countries";
-        $meta_info = array
-        (
-            'title' =>$title
-        );
-        return view('client.pages.countries')->with('meta', $meta_info);;
-    }
     public function search()
     {
         $title = "Courses";
@@ -43,6 +34,15 @@ class PageController extends Controller
             'title' =>$title
         );
         return view('client.pages.academy')->with('meta', $meta_info);;
+    }
+    public function about()
+    {
+        $title = "about";
+        $meta_info = array
+        (
+            'title' =>$title
+        );
+        return view('client.pages.about')->with('meta', $meta_info);;
     }
 
 }

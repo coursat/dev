@@ -12,6 +12,6 @@
 */
 
 Route::get('/','PageController@home');
-Route::get('/countries','PageController@countries');
 Route::get('/search','PageController@search');
 Route::get('/academy','PageController@academy');
+Route::get('/about','PageController@about');

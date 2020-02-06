@@ -85,3 +85,13 @@ ul {
 
 #profile .nav-tabs .nav-item.show .nav-link, #profile .nav-tabs .nav-link.active {
   font-weight: bold; }
+
+.space-20 {
+  height: 20px; }
+
+.user-statistic .fa {
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%); }

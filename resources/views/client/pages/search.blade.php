@@ -1,5 +1,5 @@
 @extends('client.container')
-@section('title') Countries @endsection
+@section('title') Courses List @endsection
 @section('content')
 @include('client.pages.inc.search.breadcrumb')
 <div class="alice-bg section-padding-bottom">

@@ -5,11 +5,11 @@
           <div class="row">
             <div class="col-md-6">
               <div class="breadcrumb-area">
-                <h1>Course Listing</h1>
+                <h1>@yield('title')</h1>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="{{url('')}}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Course Listing</li>
+                    <li class="breadcrumb-item active" aria-current="page">@yield('title')</li>
                   </ol>
                 </nav>
               </div>
