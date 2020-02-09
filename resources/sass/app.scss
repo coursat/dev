@@ -81,6 +81,7 @@ ul
 .branches-box
 {
     margin-top:5px;
+    padding-left: 24px;
     .branch-title
     {
         background-color:$primary_color;
@@ -131,4 +132,9 @@ ul
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+.information ul li span i.fas
+{
+    color: #aaa;
+    margin-right: 5px;
 }

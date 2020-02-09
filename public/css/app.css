@@ -58,7 +58,8 @@ ul {
   border-radius: 3px; }
 
 .branches-box {
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding-left: 24px; }
   .branches-box .branch-title {
     background-color: #7fb735;
     color: white;
@@ -95,3 +96,7 @@ ul {
   left: 20px;
   top: 50%;
   transform: translateY(-50%); }
+
+.information ul li span i.fas {
+  color: #aaa;
+  margin-right: 5px; }

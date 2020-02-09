@@ -2,10 +2,10 @@
     <div class="information-and-contact">
       <div class="information">
         <ul>
-          <li><span>Phone:</span><a href="tel:+201114358682">01114358682</a> -<a href="tel:+201114358682"> 0104358682</a> </li>
-          <li><span>Email:</span> info@inoledge.net</li>
-          <li><span>Site:</span><a href="https://inoledge.net">inoledge.net</a></li>
-          <li><span><i data-feather="map-pin"></i> Branches</span>
+          <li><span><i class="fas fa-phone"></i></span><a href="tel:+201114358682">01114358682</a> -<a href="tel:+201114358682"> 0104358682</a> </li>
+          <li><span><i class="fas fa-comment"></i></span><a href="mailto:info@inoledge.net">info@inoledge.net</a></li>
+          <li><span><i class="fas fa-globe"></i></span><a href="https://inoledge.net">inoledge.net</a></li>
+          <li><span><i class="fas fa-location-arrow"></i> Branches</span>
             <div class="branches-box">
 
                   <a href="#">  <i class="branch-title">Giza</i></a>
