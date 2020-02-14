@@ -35,6 +35,15 @@ class PageController extends Controller
         );
         return view('client.pages.academy')->with('meta', $meta_info);;
     }
+    public function course()
+    {
+        $title = "Course";
+        $meta_info = array
+        (
+            'title' =>$title
+        );
+        return view('client.pages.course')->with('meta', $meta_info);;
+    }
     public function about()
     {
         $title = "about";
