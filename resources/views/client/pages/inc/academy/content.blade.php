@@ -58,6 +58,7 @@
 
 
     @include('client.pages.inc.academy.courses')
+    </div>
 </div>
     <!-- End Courses !-->
     <!-- Start Special!-->

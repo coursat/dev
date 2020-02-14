@@ -1,5 +1,15 @@
-$primary_color : #7fb735;
+$primary_color : #4e68ae;
+$primary_hover :#486ccd;
+$padding:25px;
 $sm-space : 20px;
+$border-color:#a2a7b1;
+$green:#7fb635;
+$green_hover:#79cd09;
+body
+{
+    background-color:#edeff3;
+    color:#2a3341;
+}
 .prim-bg
 {
     background-color:$primary_color;
@@ -10,6 +20,7 @@ $sm-space : 20px;
         color:white !important;
     }
 }
+
 .logo-area a , .footer-logo
 {
     font-size:20px;
@@ -53,12 +64,16 @@ ul
     }
     .cp-nav .navbar-collapse .navbar-nav .post-job a
     {
-        background: #246df8;
+        background:$primary_color;
         color: #ffffff;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
         border-radius: 3px;
         padding: 11px 20px;
+    }
+    .cp-nav .navbar-collapse .navbar-nav .post-job a:hover
+    {
+        background-color:$primary_hover;
     }
 
 }
@@ -137,4 +152,89 @@ ul
 {
     color: #aaa;
     margin-right: 5px;
+}
+.footer-widget.footer-newsletter .newsletter-form .button
+{
+    background-color:$primary_color;
+}
+.breadcrumb-area .breadcrumb li a
+{
+    color:$primary_color;
+}
+.breadcrumb-area .breadcrumb li a:hover
+{
+    color:$primary_hover;
+}
+.course-info-box
+{
+    padding:$padding;
+    background-color:white;
+    border-radius:70px;
+    box-shadow: 0px 13px 15px #e3e3e3;
+}
+.enroll-btn
+{
+    background-color:$green;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.pull-right
+{
+    float:right;
+}
+.enroll-btn:hover
+{
+    background-color:$green_hover;
+    color:white;
+}
+a
+{
+    display: inline-block;
+}
+a:hover
+{
+    text-decoration:none;
+}
+.left-border
+{
+    border-left:1px solid $border-color;
+}
+.icon-info
+{
+    text-align:center;
+    i
+    {
+        font-size:40px;
+        color:$primary_color;
+    }
+    .info
+    {
+        font-size:25px;
+        font-weight:bold;
+    }
+    .sm
+    {
+        font-size: 15px;
+    }
+}
+.center-ver
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box
+{
+    background: #ffffff;
+    padding: 30px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+}
+.footer-bg
+{
+    margin-top:80px;
 }

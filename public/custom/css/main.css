@@ -84,16 +84,6 @@ a {
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
-
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
-  display: inline-block;
-  color: inherit;
-  outline: none;
-}
-
 .button {
   border: 1px solid transparent;
   outline: none;
@@ -121,11 +111,6 @@ a:focus {
 .white-bg {
   background: #ffffff;
 }
-
-.alice-bg {
-  background: #f7f9fc;
-}
-
 .section-padding {
   padding: 120px 0;
 }
@@ -1688,15 +1673,6 @@ a:focus {
 .breadcrumb-area .breadcrumb li {
   color: #6f7484;
 }
-
-.breadcrumb-area .breadcrumb li a {
-  color: #aaaaaa;
-}
-
-.breadcrumb-area .breadcrumb li a:hover {
-  color: #246df8;
-}
-
 .breadcrumb-form {
   text-align: right;
 }
@@ -7279,20 +7255,6 @@ header .absolute-nav {
 .footer-widget.footer-newsletter .newsletter-form .form-group .form-control:focus {
   border-bottom-color: #246df8;
 }
-
-.footer-widget.footer-newsletter .newsletter-form .button {
-  background: #246df8;
-  border-color: #246df8;
-}
-
-.footer-widget.footer-newsletter .newsletter-form .button:hover {
-  color: #ffffff;
-}
-
-.footer-widget.footer-newsletter .newsletter-form .button:focus {
-  outline: none;
-}
-
 .footer-bottom {
   padding: 40px 0;
 }

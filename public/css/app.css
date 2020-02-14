@@ -1,6 +1,10 @@
+body {
+  background-color: #edeff3;
+  color: #2a3341; }
+
 .prim-bg {
-  background-color: #7fb735;
-  background: #7fb735;
+  background-color: #4e68ae;
+  background: #4e68ae;
   color: white; }
   .prim-bg * {
     color: white !important; }
@@ -39,12 +43,15 @@ ul {
   color: gray; }
 
 .header-2 .cp-nav .navbar-collapse .navbar-nav .post-job a {
-  background: #246df8;
+  background: #4e68ae;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   border-radius: 3px;
   padding: 11px 20px; }
+
+.header-2 .cp-nav .navbar-collapse .navbar-nav .post-job a:hover {
+  background-color: #486ccd; }
 
 .job-list .thumb img {
   max-width: 70px; }
@@ -61,7 +68,7 @@ ul {
   margin-top: 5px;
   padding-left: 24px; }
   .branches-box .branch-title {
-    background-color: #7fb735;
+    background-color: #4e68ae;
     color: white;
     padding: 0px 5px;
     border-radius: 3px;
@@ -72,10 +79,10 @@ ul {
     display: inline-block; }
 
 .title-and-info .download-resume a {
-  background-color: #7fb735; }
+  background-color: #4e68ae; }
 
 .ver-badge {
-  color: #7fb735;
+  color: #4e68ae;
   width: 30px; }
 
 .profile-tab-content {
@@ -100,3 +107,68 @@ ul {
 .information ul li span i.fas {
   color: #aaa;
   margin-right: 5px; }
+
+.footer-widget.footer-newsletter .newsletter-form .button {
+  background-color: #4e68ae; }
+
+.breadcrumb-area .breadcrumb li a {
+  color: #4e68ae; }
+
+.breadcrumb-area .breadcrumb li a:hover {
+  color: #486ccd; }
+
+.course-info-box {
+  padding: 25px;
+  background-color: white;
+  border-radius: 70px;
+  box-shadow: 0px 13px 15px #e3e3e3; }
+
+.enroll-btn {
+  background-color: #7fb635;
+  padding: 15px 30px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.pull-right {
+  float: right; }
+
+.enroll-btn:hover {
+  background-color: #79cd09;
+  color: white; }
+
+a {
+  display: inline-block; }
+
+a:hover {
+  text-decoration: none; }
+
+.left-border {
+  border-left: 1px solid #a2a7b1; }
+
+.icon-info {
+  text-align: center; }
+  .icon-info i {
+    font-size: 40px;
+    color: #4e68ae; }
+  .icon-info .info {
+    font-size: 25px;
+    font-weight: bold; }
+  .icon-info .sm {
+    font-size: 15px; }
+
+.center-ver {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.main-box {
+  background: #ffffff;
+  padding: 30px;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03); }
+
+.footer-bg {
+  margin-top: 80px; }

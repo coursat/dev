@@ -15,32 +15,7 @@
           </div>
         </div>
         <div class="button-area">
-          <a href="#" data-toggle="modal" data-target="#c123">Show Details</a>
-
-          <!-- Course Details Modal !-->
-          <div class="modal fade contact-form-modal" id="c123" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <h4><i data-feather="edit"></i>Contact US</h4>
-                  <form action="#">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Your Email">
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message"></textarea>
-                    </div>
-                    <button class="button">Submit</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Course Details Modal !-->
-        </div>
+        <a href="{{url('/course')}}" >Show Details</a>
       </div>
     </div>
   </div>
