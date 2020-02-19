@@ -1,9 +1,9 @@
 
-      <div class="container">
+      <div class=" sticky">
     <div class="row ">
         <div class="col">
-            <div class="course-info-box">
-
+            <div class="course-info-box ">
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="icon-info">
@@ -33,3 +33,4 @@
         </div>
     </div>
 
+</div>

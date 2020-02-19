@@ -118,9 +118,8 @@ ul {
   color: #486ccd; }
 
 .course-info-box {
-  padding: 25px;
+  padding: 10px;
   background-color: white;
-  border-radius: 70px;
   box-shadow: 0px 13px 15px #e3e3e3; }
 
 .enroll-btn {
@@ -155,7 +154,8 @@ a:hover {
     color: #4e68ae; }
   .icon-info .info {
     font-size: 25px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: -12px; }
   .icon-info .sm {
     font-size: 15px; }
 
@@ -172,3 +172,37 @@ a:hover {
 
 .footer-bg {
   margin-top: 80px; }
+
+.details-section h4 i {
+  height: 22px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  color: #aaa; }
+
+.list-icon {
+  list-style: none;
+  padding-left: 20px; }
+
+.list-icon li {
+  position: relative;
+  color: #6f7484; }
+
+.list-icon li::before {
+  position: absolute;
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  top: 2px;
+  left: -20px;
+  font-size: 1.2rem;
+  color: #19bb4c; }
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 100; }
+
+#logo {
+  font-size: 20px;
+  font-weight: bold; }

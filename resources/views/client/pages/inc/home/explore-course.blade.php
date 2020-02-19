@@ -18,7 +18,7 @@
               </div>
               <div class="key-info">
                 <ul>
-                  <li><a href="job-listing.html">Accounting / Finance<span>(233)</span></a></li>
+                  <li><a href="{{url('/search')}}">Accounting / Finance<span>(233)</span></a></li>
                   <li><a href="job-listing.html">Education<span>(46)</span></a></li>
                   <li><a href="job-listing.html">Design &amp; Creative<span>(156)</span></a></li>
                   <li><a href="job-listing.html">Health Care<span>(98)</span></a></li>

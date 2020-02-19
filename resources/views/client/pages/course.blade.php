@@ -1,4 +1,7 @@
 @extends('client.container')
+@section('links')
+<link rel="stylesheet" type="text/css" href="{{asset('custom')}}/dashboard/css/dashboard.css">
+@endsection
 @section('content')
 <div class="container">
 @include('client.pages.inc.course.head')

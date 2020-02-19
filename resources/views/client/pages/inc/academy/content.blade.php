@@ -30,7 +30,7 @@
 
       <div class="about-details details-section">
 
-          <p>Mission
+          <p>Mission </p>
       </div>
 
   </div>

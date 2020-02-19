@@ -1,5 +1,4 @@
-   <!-- Modal -->
-   <div class="account-entry">
+<div class="account-entry">
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -34,7 +33,7 @@
                 <a href="#" class="facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
                 <a href="#" class="google"><i class="fab fa-google"></i>Google</a>
               </div>
-              <p>Don't have an account? <a href="#">Register</a></p>
+              <p>Don't have an account? <a data-toggle="modal" data-target="#exampleModalLong2" href="#">Register</a></p>
             </div>
           </div>
         </div>
@@ -86,7 +85,7 @@
                 <a href="#" class="facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
                 <a href="#" class="google"><i class="fab fa-google"></i>Google</a>
               </div>
-              <p>Already have an account? <a href="#">Login</a></p>
+              <p>Already have an account? <a data-toggle="modal" data-target="#exampleModalLong" href="#">Login</a></p>
             </div>
           </div>
         </div>

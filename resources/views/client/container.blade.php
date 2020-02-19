@@ -7,8 +7,7 @@
 
 
 @if(!(isset($meta['is_home_page'])))
-
-    @include("client.inc.header")
+    @include('client.inc.header')
 @endif
 
 
