@@ -15,7 +15,7 @@ class PageController extends Controller
             'title' =>$title,
             'is_home_page' => true,
         );
-        return view('client.pages.home')->with('meta', $meta_info);
+        return view('visitor.pages.home')->with('meta', $meta_info);
     }
     public function search()
     {
@@ -24,7 +24,7 @@ class PageController extends Controller
         (
             'title' =>$title
         );
-        return view('client.pages.search')->with('meta', $meta_info);;
+        return view('visitor.pages.search')->with('meta', $meta_info);;
     }
     public function academy()
     {
@@ -33,7 +33,7 @@ class PageController extends Controller
         (
             'title' =>$title
         );
-        return view('client.pages.academy')->with('meta', $meta_info);;
+        return view('visitor.pages.academy')->with('meta', $meta_info);;
     }
     public function course()
     {
@@ -42,7 +42,7 @@ class PageController extends Controller
         (
             'title' =>$title
         );
-        return view('client.pages.course')->with('meta', $meta_info);;
+        return view('visitor.pages.course')->with('meta', $meta_info);;
     }
     public function about()
     {
@@ -51,7 +51,7 @@ class PageController extends Controller
         (
             'title' =>$title
         );
-        return view('client.pages.about')->with('meta', $meta_info);;
+        return view('visitor.pages.about')->with('meta', $meta_info);;
     }
 
 }

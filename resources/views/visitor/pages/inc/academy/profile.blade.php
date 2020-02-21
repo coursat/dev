@@ -3,15 +3,15 @@
         <div class="row">
           <div class="col">
             <div class="candidate-details">
-              @include('client.pages.inc.academy.head')
-              @include('client.pages.inc.academy.skills-social')
+              @include('visitor.pages.inc.academy.head')
+              @include('visitor.pages.inc.academy.skills-social')
               <div class="space-20">
               </div>
-              @include('client.pages.inc.academy.info-counters')
+              @include('visitor.pages.inc.academy.info-counters')
               <div class="details-information section-padding-60 company-details">
                 <div class="row">
-                  @include('client.pages.inc.academy.content')
-                  @include('client.pages.inc.academy.info-side')
+                  @include('visitor.pages.inc.academy.content')
+                  @include('visitor.pages.inc.academy.info-side')
                 </div>
               </div>
             </div>

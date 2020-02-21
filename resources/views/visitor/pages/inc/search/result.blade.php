@@ -22,14 +22,14 @@
     <div class="job-filter-result">
       <div class="job-list">
         <div class="thumb">
-          <a href="#">
+          <a href="{{url('/course')}}">
             <img src="{{url('custom')}}/images/inoledge.jpg" class="img-fluid" alt="">
           </a>
         </div>
         <div class="body">
           <div class="content">
             <a href="{{url('academy')}}"> <h2 class="academic-title">Inoledge </h2></a>
-            <h4><a href="job-details.html">Ui Developer Diploma</a></h4>
+          <h4><a href="{{url('/course')}}">Ui Developer Diploma</a></h4>
             <div class="info">
               <span class="company"><a href="#"><i data-feather="briefcase"></i>Theoreo</a></span>
               <span class="office-location"><a href="#"><i data-feather="map-pin"></i>New Orleans</a></span>

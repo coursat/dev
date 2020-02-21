@@ -3,6 +3,10 @@ $(document).ready(function() {
     /*-----------------------------------
     Smooth Scroll
     -----------------------------------*/
+    $(".account-button").click(function()
+    {
+        $("#account-show").css("display","block").css("opacity","1");
+    });
 
     // Select all links with hashes
     $('a[href*="#"]')

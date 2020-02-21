@@ -4,7 +4,7 @@
           <div class="col">
             <div class="header-top">
               <div class="logo-area">
-              @include('client.header.logo')
+              @include('visitor.header.logo')
               </div>
               <div class="header-top-toggler">
                 <div class="header-top-toggler-button"></div>
@@ -12,10 +12,10 @@
 
               <!--  Main Menu !-->
               <nav class="navbar navbar-expand-xl absolute-nav transparent-nav cp-nav navbar-light bg-light fluid-nav">
-                 @include('client.header.header')
+                 @include('visitor.header.header')
               </nav>
               <!-- End Main Menu !-->
-              @include('client.header.logined')
+              @include('visitor.header.logined')
 
             </div>
           </div>
@@ -23,4 +23,4 @@
       </div>
     </header>
        <!-- Modal -->
-       @include('client.inc.login-modal')
+       @include('visitor.inc.login-modal')

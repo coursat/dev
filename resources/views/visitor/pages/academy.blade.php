@@ -1,8 +1,8 @@
-@extends('client.container')
+@extends('visitor.container')
 @section('links')
 <link rel="stylesheet" type="text/css" href="{{asset('custom')}}/dashboard/css/dashboard.css">
 @endsection
 @section('content')
-@include('client.pages.inc.academy.profile')
-@include('client.inc.call-to-action')
+@include('visitor.pages.inc.academy.profile')
+@include('visitor.inc.call-to-action')
 @endsection

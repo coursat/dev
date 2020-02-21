@@ -33,7 +33,7 @@
 
   <ul class="navbar-nav ml-auto main-nav">
     <li class="menu-item active"><a title="Home" href="home-1.html">Home</a></li>
-    <li class="menu-item post-job"><a title="Title" href="post-job.html"><i class="fas fa-plus"></i>Add Your Academy</a></li>
+  <li class="menu-item post-job"><a title="Title" href="{{url('/dashboard')}}"><i class="fas fa-plus"></i>Add Your Academy</a></li>
   </ul>
   <ul class="navbar-nav ml-auto account-nav">
 

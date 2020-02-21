@@ -1,4 +1,4 @@
-@extends('client.container')
+@extends('visitor.container')
 @section('content')
     <!-- Candidates Details -->
     <div class="alice-bg section-padding-bottom">

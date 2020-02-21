@@ -5,9 +5,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="footer-logo">
-                <a href="#">
-               Courses
-                </a>
+                @include('visitor.header.logo')
               </div>
             </div>
             <div class="col-md-6">

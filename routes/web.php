@@ -16,3 +16,4 @@ Route::get('/search','PageController@search');
 Route::get('/academy','PageController@academy');
 Route::get('/course','PageController@course');
 Route::get('/about','PageController@about');
+Route::get('/dashboard','Managers@dashboard');

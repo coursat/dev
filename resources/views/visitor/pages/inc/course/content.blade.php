@@ -33,7 +33,7 @@
                     <br><br>
                     <h4><i class="fas fa-book"></i> Content</h4>
                 </div>
-                @include('client.pages.inc.course.lessons')
+                @include('visitor.pages.inc.course.lessons')
             </section>
         </div>
     </div>

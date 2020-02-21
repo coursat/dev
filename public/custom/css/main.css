@@ -5192,14 +5192,6 @@ header .absolute-nav {
   padding-right: 8px;
   margin-right: 10px;
 }
-
-.header-top-account .account-button:before,
-.header-top-account > button:before {
-  content: "\e602";
-  font-family: 'themify';
-  margin-right: 6px;
-}
-
 .header-top-account > button {
   background: transparent;
   border: 0;

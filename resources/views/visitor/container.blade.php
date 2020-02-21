@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
-    @include("client.inc.head-info")
+    @include("visitor.inc.head-info")
   </head>
 <body>
 
 
 @if(!(isset($meta['is_home_page'])))
-    @include('client.inc.header')
+    @include('visitor.inc.header')
 @endif
 
 
         @yield('content')
 
 
-    @include("client.inc.footer")
-    @include("client.inc.body-end")
+    @include("visitor.inc.footer")
+    @include("visitor.inc.body-end")
 </body>
 </html>
 
