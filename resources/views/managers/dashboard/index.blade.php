@@ -4,21 +4,18 @@
 @endsection
 @section('content')
     <!-- Breadcrumb -->
-    <div class="alice-bg padding-top-70 padding-bottom-70">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="breadcrumb-area">
-                <h1>Dashboard</h1>
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="{{url('/academy')}}">Inoledge</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-                  </ol>
-                </nav>
+@include('managers.dashboard.breadcrumb')
+      <div class="alice-bg section-padding-bottom">
+        <div class="container no-gliters">
+          <div class="row no-gliters">
+            <div class="col">
+              <div class="dashboard-container">
+                @include('managers.dashboard.content')
+                @include('managers.dashboard.sidebar')
               </div>
             </div>
           </div>
         </div>
       </div>
-@endsection
+
+      @endsection

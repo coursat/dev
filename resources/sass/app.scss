@@ -2,6 +2,7 @@ $primary_color : #4e68ae;
 $primary_hover :#486ccd;
 $padding:10px;
 $sm-space : 20px;
+$big-space:50px;
 $border-color:#a2a7b1;
 $green:#7fb635;
 $green_hover:#79cd09;
@@ -9,6 +10,10 @@ body
 {
     background-color:#edeff3;
     color:#2a3341;
+}
+.space-big
+{
+    height:$big-space;
 }
 .prim-bg
 {
@@ -300,4 +305,67 @@ a:hover
 .account-button
 {
     font-weight:500;
+}
+.coursat-title
+{
+    color: #535353;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.course-row-img img
+{
+    width:100%;
+}
+.course-row .row >div
+{
+    padding:0px 10px;
+}
+.course-row
+{
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-left: 5px solid #4e68ae;
+    margin-bottom: 30px;
+}
+.course-row-report
+{
+    background-color: #f1f5ff;
+    padding:0px 15px;
+}
+.report-course
+{
+    text-align:center;
+    padding: 10px 15px;
+}
+.report-course .icon
+{
+    color: #4e68ae;
+    padding: 10px;
+    font-size: 25px;
+    line-height: 25px;
+}
+.report-course .counter
+{
+    font-size: 18px;
+}
+.show-button
+{
+    padding: 5px 10px;
+    background-color: #4e68ae;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    float:right;
+    font-size: 12px;
+}
+.show-button:hover
+{
+    color:white;
+    background-color:$primary_hover;
+}
+.course-info .thumb
+{
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
