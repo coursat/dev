@@ -15,58 +15,27 @@
           <h3>1300</h3>
           <span>Show Details Clicks</span>
         </div>
+        <div class="user-statistic">
+            <i class="fa fa-address-book"></i>
+          <h3>800</h3>
+          <span>Contacts</span>
+        </div>
+        <div class="user-statistic">
+            <i class="fa fa-newspaper"></i>
+          <h3>10</h3>
+          <span>Blogs</span>
+        </div>
+        <div class="user-statistic">
+            <i class="fa fa-universal-access"></i>
+          <h3>1000</h3>
+          <span>Blog Visitors</span>
+        </div>
 
     </div>
     <div class="space-big">
-
     </div>
     <h4 class="coursat-title">Course Analytics</h4>
-    <div class="course-row">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="col-lg-4">
-                       <div class="course-row-img">
-                        <img src="{{asset('imgs')}}/webdesign.jpg">
-                       </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <h5>Web Design</h5>
-                        <p><i class="fas fa-map-marker-alt"></i>
-                            Alexandria</p>
-                    </div>
-                    <div class="col-lg-12">
-                            <a class="show-button" href="{{url('/course')}}" >Edit Details</a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="course-row-report">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="report-course">
-                                <div class="icon"><i class="fa fa-user"></i></div>
-                                <div class="counter"><strong>1400</strong> Visitor</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="report-course">
-                                <div class="icon"><i class="fa fa-phone"></i></div>
-                                <div class="counter"><strong>1400</strong> Call</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="report-course">
-                                <div class="icon">  <i class="fa fa-th-list"></i></div>
-                                <div class="counter"><strong>1400</strong> Price</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('managers.dashboard.courses-analytics')
 
 </div>
 

@@ -16,8 +16,8 @@
           </li>
         </ul>
       </div>
-      <div class="buttons">
-        <a href="#" class="button contact-button" data-toggle="modal" data-target="#exampleModal">Contact US</a>
+      <div class="buttons contact-action">
+        <a href="#" class="button " data-toggle="modal" data-target="#exampleModal">Send Your Contact</a>
       </div>
       <!-- Modal -->
       <div class="modal fade contact-form-modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">

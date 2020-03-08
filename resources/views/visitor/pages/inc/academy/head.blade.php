@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <div class="download-resume">
-      <a href="#">Apply Now</a>
+    <div class="contact-action">
+      <a href="#">Contact Us</a>
     </div>
   </div>

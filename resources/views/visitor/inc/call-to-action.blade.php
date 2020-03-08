@@ -5,13 +5,13 @@
           <div class="col">
             <div class="call-to-action-2">
               <div class="call-to-action-content">
-                <h2>For Find Your Dream Job or Candidate</h2>
-                <p>Add resume or post a job. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                <h2>For Find Your Course</h2>
+                <p>Enter Academy Profile , Watch The Reviews , Contact Them</p>
               </div>
               <div class="call-to-action-button">
-                <a href="add-resume.html" class="button">Add Resume</a>
+                <a href="add-resume.html" class="button">Search Course</a>
                 <span>Or</span>
-                <a href="post-job.html" class="button">Post A Job</a>
+                <a href="post-job.html" class="button">Add Your Academy</a>
               </div>
             </div>
           </div>

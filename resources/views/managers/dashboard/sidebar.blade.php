@@ -15,12 +15,9 @@
       <ul>
         <li class="active"><i class="fas fa-home"></i><a href="dashboard.html">Dashboard</a></li>
         <li><i class="fas fa-user"></i><a href="dashboard-edit-profile.html">Edit Profile</a></li>
-        <li><i class="fas fa-file-alt"></i><a href="resume.html">Resume</a></li>
-        <li><i class="fas fa-edit"></i><a href="edit-resume.html">Edit Resume</a></li>
-        <li><i class="fas fa-heart"></i><a href="dashboard-bookmark.html">Bookmarked</a></li>
-        <li><i class="fas fa-check-square"></i><a href="dashboard-applied.html">Applied Job</a></li>
-        <li><i class="fas fa-comment"></i><a href="dashboard-message.html">Message</a></li>
-        <li><i class="fas fa-calculator"></i><a href="dashboard-pricing.html">Pricing Plans</a></li>
+        <li><i class="fas fa-file-alt"></i><a href="resume.html">Add Course</a></li>
+        <li><i class="fas fa-heart"></i><a href="edit-resume.html">List of Courses</a></li>
+        <li><i class="fas fa-comment"></i><a href="dashboard-message.html">Contacts</a></li>
       </ul>
       <ul class="delete">
         <li><i class="fas fa-power-off"></i><a href="#">Logout</a></li>

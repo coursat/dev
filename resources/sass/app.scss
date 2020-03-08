@@ -1,5 +1,7 @@
 $primary_color : #4e68ae;
 $primary_hover :#486ccd;
+$action-contact :#42b72a;
+$action-contact-hover:#2b9217;
 $padding:10px;
 $sm-space : 20px;
 $big-space:50px;
@@ -115,14 +117,29 @@ ul
         display: inline-block;
     }
 }
-.title-and-info .download-resume a
+.contact-action a
 {
-    background-color:$primary_color;
+    background-color:$action-contact;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width:100%
+}
+.company-details .job-location
+{
+    margin-top:30px;
+}
+.contact-action a:hover
+{
+    background-color:$action-contact-hover;
 }
 .ver-badge
 {
     color:$primary_color;
     width:30px;
+    font-size:20px;
 
 }
 .profile-tab-content
@@ -134,7 +151,7 @@ ul
 {
     .title-body h1
     {
-        font-size:35px;
+        font-size:30px;
     }
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
     {
@@ -238,11 +255,12 @@ a:hover
     padding: 30px;
     -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
+    margin-bottom:50px;
 }
-.footer-bg
-{
-    margin-top:80px;
-}
+// .footer-bg
+// {
+//     margin-top:80px;
+// }
 .details-section h4 i
 {
     height: 22px;
@@ -369,3 +387,14 @@ a:hover
     margin: 0 auto;
     margin-bottom: 20px;
 }
+.user-statistic-block .user-statistic {
+
+    margin-bottom:20px;
+    color:$primary_color;
+    width: 31.5%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    padding-left: 80px;
+    border:1px dashed;
+    position: relative;
+  }
